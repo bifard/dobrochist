@@ -1,0 +1,238 @@
+.wallaper_block-seven {
+    max-width: 1280px;
+    padding: 0 0 28px 0;
+    background-image: url(image/block-seven/block-seven_fon.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+.block-seven input {
+    display: block;
+}
+.block-seven {
+    margin: 0 auto;
+    max-width: 1080px;
+
+}
+.block-seven_conteiner {
+    padding-bottom: 87px;
+    padding-top: 21px;
+
+}
+.block-seven_conteiner-form {
+    max-width: 500px;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+
+    padding: 6px 12px;
+
+    background-color: #5CBEF0;
+    border-radius: 26px;
+}
+.conteiner-form_header {
+    padding-bottom: 28px;
+}
+.header-h1 {
+    font-family: 'oswald_bold';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 47px;
+
+    letter-spacing: 2px;
+
+    color: #333333;
+}
+.header-h2 {
+    font-family: 'openSansLight';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+
+    letter-spacing: 1px;
+    
+    color: #504E4E;
+}
+.form_conteiner_item {
+    padding: 10px 12px;
+    
+}
+/* input */
+.form_conteiner_item  input{
+    font-family: 'openSansLight';
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 158%;
+
+    color: #333333;
+
+    background: #FFFFFF;
+    border: 0.913338px solid #F6F9FF;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 9.13338px rgba(111, 111, 111, 0.25);
+    border-radius: 25px;
+    min-width: 210px;
+    min-height: 40px;
+
+    padding: 14px 21px 8px;
+    outline: none;
+}
+
+
+/* Textarea */
+
+.form_conteiner_item-textarea {
+    min-width: 210px;
+    padding: 10px 12px;
+    width: 100%;
+}
+.form_conteiner_item-textarea textarea {
+    font-family: 'openSansLight';
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 158%;
+
+    color: #333333;
+
+    border: 0.913338px solid #F6F9FF;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 9.13338px rgba(111, 111, 111, 0.25);
+    border-radius: 25px;
+
+    padding: 13px 20px;
+    min-height: 80px;
+    width: 100%;
+
+    resize: none;
+
+    outline: none;
+}
+
+.label-file + input {
+    display: none;
+}
+.label-file {
+    display: flex;
+    justify-content: space-between;
+
+    font-family: 'openSansLight';
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 158%;
+
+    color: #333333;
+
+    background: #FFFFFF;
+    border: 0.913338px solid #F6F9FF;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 9.13338px rgba(111, 111, 111, 0.25);
+    border-radius: 26.9984px;
+    width: 210px;
+    min-height: 40px;
+    
+}
+.label-file:hover,
+.label-file_right,
+.label-file_left {
+    cursor: pointer;
+}
+
+.label-file_right {
+    background: #528FC6;
+    border-radius: 0 25px 25px 0;
+    padding: 14px 8px 8px 6px;
+
+    color: #FFFFFF;
+}
+.label-file_left {
+    padding: 14px 0 8px 20px;
+    opacity: 0.8;
+}
+
+/* footer */
+.form_conteiner_item-footer {
+    display: flex;
+    
+}
+.item-footer_text {
+    padding: 0 8px 16px 12px;
+    font-family: 'openSansLight';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 158%;
+
+    color: #333333;
+}
+.item-footer {
+    padding-right: 12px;
+}
+.item-footer_input {
+    font-family: "openSansSemiBold";
+    font-weight: 600;
+    font-size: 14.8491px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    outline: none;
+    border: none;
+
+    cursor: pointer;
+
+    background: #528FC6;
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px 5px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px 5px 5px 0px rgba(50, 50, 50, 0.75);
+    border-radius: 25px;
+
+    min-width: 210px;
+    min-height: 40px;
+}
+.item-footer_input:hover,
+.label-file:hover .label-file_right,
+.label-file_left:hover + .label-file_right {
+    background: #3CA9E4;
+}
+.item-footer_input:active,
+.label-file:active .label-file_right,
+.label-file_left:active + .label-file_right {
+    background: #38466E;
+    box-shadow: none;
+}
+
+/* SETI */
+.footer-conteiner_text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 18px;
+
+    font-family: "oswald_light";
+  
+    font-weight: 300;
+    font-size: 14px;
+
+    letter-spacing: 0.6px;
+
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+.svg {
+    width: 30px;
+    height: 30px;
+    opacity: 0.7;
+    padding: 0 7px;
+}
+.svg:hover {
+    opacity: 1;
+}
+.seti {
+    display: flex;
+    justify-content: center;
+    
+    padding-top: 27px;
+}

@@ -1,0 +1,20 @@
+@media (max-width: 650px) {
+    .conteiner_h1 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .quest-conteiner-h {
+        font-size: 23px;
+        line-height: 30px;
+    }
+}
+@media (max-width: 450px) {
+    .conteiner_h1 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .quest-conteiner-h {
+        font-size: 18px;
+        line-height: 25px;
+    }
+}

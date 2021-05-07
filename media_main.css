@@ -1,0 +1,7 @@
+@media (max-width: 1280px) {
+    .wallaper,
+    .wallaper_block-seven {
+        padding: 0 7px;
+        margin: 0 auto;
+    }
+}

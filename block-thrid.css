@@ -1,0 +1,96 @@
+.block-thrid {
+    display: flex;
+    flex-direction: column;
+    
+    background-image: url(image/block-thrid/fon-block-third.png);
+    background-repeat: no-repeat;
+    padding: 116px 0 0;
+}
+
+
+.block-thrid_quest {
+    width: 100%;
+    font-family: "oswald_bold";
+    font-style: normal;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 2px;
+
+    margin-bottom: 47px;
+    color: #252525;
+}
+
+
+.block-third_conteiner-sofu {
+    display: flex;
+    margin-bottom: 41px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.conteiner-sofu_first img,
+.conteiner-sofu_second img {
+    width: 100%;
+}
+.conteiner-sofu_first {
+    margin-right: 65px;
+}
+
+/* SLIDER */
+.slider-head {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: "oswald_light";
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 29px;
+    letter-spacing: 1px;
+}
+.slider-head_item {
+    padding: 0 20px;
+    border: 2.4px solid #528FC6;
+    margin-right: -2.4px;
+    margin-bottom: 3px;
+    cursor: pointer;
+}
+
+.slider-conteiner {
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 37px;
+}
+
+.slider-track {
+    max-width: 966px;
+    display: flex;
+    overflow: hidden;
+    min-height: 130px;
+}
+.slider-item {
+    max-width: 966px;
+    display: none;
+    font-family: "openSansRegular";
+    font-style: normal;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color:  #252525;
+    text-shadow: #333333;
+}
+.btn-next,
+.btn-prev {
+    padding: 0 20px 0;
+    cursor: pointer;
+}
+
+/* Контейнер для Button */
+.block-third_button {
+    
+    max-width: 1080px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}

@@ -1,0 +1,10 @@
+@media (max-width:600px) {  
+    .block-fourth_footer {
+            padding-left: 40px;
+        }
+}
+@media (max-width:400px) {  
+    .block-fourth_footer {
+            padding-left: 0px;
+        }
+}

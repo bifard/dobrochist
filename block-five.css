@@ -1,0 +1,82 @@
+
+/* main blok */
+.block-five {
+    display: flex;
+    padding-top: 100px;
+}
+.block-five_text-left {
+
+}
+
+/* text blok */
+.text-left_heder {
+
+}
+.header_h1 {
+    font-family: "oswald_bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 47px;
+
+    letter-spacing: 1.6px;
+    
+    color: #333333;
+}
+.header_h2 {
+    font-family: 'openSansLight';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 41px;
+
+    letter-spacing: 1.9px;
+    
+    color: #504E4E;
+}
+
+.text-left_conteiner-price {
+    font-family: 'openSansExtraBold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 17px;
+
+    letter-spacing: 1px;
+    
+    color: #252525;
+
+    padding-top: 18px;
+    padding-left: 40px;
+    padding-bottom: 22px;
+}
+.conteiner-price_item {
+    padding-bottom: 7px;
+}
+.text-left_conteiner-ul {
+    font-family: "openSansLight";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    
+    letter-spacing: 1px;
+    
+    color: #252525;
+    
+    max-width: 492px;
+}
+
+.text-left_conteiner-ul ul li {
+    padding-bottom: 9px;
+}
+b {
+    font-weight: 700 ; 
+}
+
+/* img block */
+.block-five_img-right {
+
+}
+
+
+

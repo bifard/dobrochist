@@ -1,0 +1,40 @@
+.block-second {
+    background-image: url(image/block-second/fon_block-second.png);
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    padding: 0 0 88px;
+}
+.block-second_quest {
+    font-family: "oswald_bold";
+    font-style: normal;
+    font-size: 26px;
+    line-height: 36px;
+    letter-spacing: 1.6px;
+    font-weight: 700;
+    color: #333333;
+    padding-top: 48px;
+}
+.block-second_h {
+    font-family: "openSansLight";
+    font-style: normal;
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 41px;
+    font-weight: 300;
+
+    color: #504E4E;
+}
+.block-second_ul {
+    font-family: "openSansLight";
+    font-size: 16px;
+   /*  line-height: 19px; */
+    letter-spacing: 1px;
+    max-width: 437px;
+}
+.block-second_li {
+    padding-bottom: 17px;
+}
+
+li::marker {
+   content: "\2014  ";
+}

@@ -1,0 +1,130 @@
+.block-fourth_head {
+    font-family: "oswald_bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 47px;
+    letter-spacing: 2px;
+
+    padding: 106px 0 49px;
+    color: #252525;
+}
+
+.block-fourth_cataloge {
+    display: flex;
+    justify-content: center;
+}
+.cataloge_btn-next,
+.cataloge_btn-prev {
+    padding: 0 20px 0;
+    cursor: pointer;
+}
+.cataloge_track-conteiner {
+    max-width: 966px;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+}
+.cataloge_track {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+.track_item {
+    /* min-width: 250px; */
+    min-height: 262px;
+/*     padding: 6px; */
+    display: none;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1)
+}
+
+.item-image {
+    text-align: center;
+    margin-bottom: 22px;
+    height: 50%;
+}
+.item-image img {
+    width: 100%;
+   
+   
+}
+.item-name {
+    text-align: center;
+    font-family: "openSansSemiBold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+   
+    letter-spacing: 1px;
+
+    color: #252525;
+}
+.item-name_second {
+    text-align: center;
+    font-family: "openSansRegular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1px;
+
+    color: #252525;
+
+    mix-blend-mode: normal;
+    opacity: 0.7;
+    margin-bottom: 9px;
+}
+.item-price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+    font-family: 'openSansSemiBold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 1px;
+
+    color: #252525;
+}
+.price-standart,
+.prace-exprece {
+    display: flex;
+    align-items: baseline;
+    width: 100%;
+   /*  width: 80%;
+    text-align: left; */
+}
+.price-standart:before {
+    content: "стандарт";
+    margin-right: 5px;
+
+    font-size: 12px;
+    line-height: 16px;
+}
+.prace-exprece:before {
+    content: "экспресс";
+    margin-right: 5px;
+
+    font-size: 12px;
+    line-height: 16px;
+}
+.block-fourth_footer {
+    font-family: "openSansLight";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 1px;
+
+    padding-left: 56px;
+    padding-top: 17px;
+    color: #252525;
+}
+.footer_standart {
+    margin-bottom: 7px;
+}

@@ -1,0 +1,72 @@
+
+/* Стили блока block-first  */
+
+.block-first {
+    background-image: url(image/block-first/page_block-first.jpg);
+    background-size: 700px;
+    background-repeat: no-repeat;
+    padding: 0 107px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+/* Стили блока Р */
+.block-first_p {
+    margin-top: 72px;
+}
+.p_h1 {
+    font-family: "oswald_medium";
+    font-size: 48px;
+    line-height: 135%;
+    letter-spacing: 3px;
+    font-weight: 500;
+
+    max-width: 418px;
+}
+.p_h2 {
+    font-family: "openSansRegular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 1px;
+
+    color: #252525;
+
+    mix-blend-mode: normal;
+    opacity: 0.8;
+
+    padding-top: 30px;
+    max-width: 310px;
+}
+/* Стили блока property */
+.block-first_property {
+    display: flex;
+    margin-right: 30px;
+    padding-top: 79px;
+    padding-bottom: 165px;
+}
+
+.property_conteiner {
+    display: flex;
+    flex-direction: column;
+    min-width: 100px;
+    margin: 0 5px 0 0;
+}
+.property_conteiner object{
+    border-right: solid 2px;
+    border-color: #468CCC;
+    padding: 0 10px 0;
+    margin-bottom: 8px; 
+}
+.property_conteiner:last-child object{
+    border: none;  
+}
+.bottom_text {
+    font-family: "oswald_regular";
+    font-size: 8px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 0;
+}

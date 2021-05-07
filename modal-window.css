@@ -1,0 +1,28 @@
+
+.modal-window {
+    /* display: flex; */
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+
+    background-color: rgba(2, 1, 1, 0.5);
+}
+.modal-window_conteiner {
+    max-width: 500px;
+}
+.close {
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    font-size: 26px;
+
+    cursor: pointer;
+    
+}

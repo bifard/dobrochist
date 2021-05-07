@@ -1,0 +1,94 @@
+
+
+/* header общие стили */
+header {
+display: flex;
+justify-content: space-between;
+padding: 40px 107px 18px;
+}
+/* Логотип */
+.logo_h1 {
+    font-family: 'artifakt';
+    font-size: 11px;
+    letter-spacing: 1px;
+    line-height: 100%;
+
+    color: #088FBE;
+}
+/* общие стили contacts */
+.contacts {
+    display: flex;
+    align-items: center;
+}
+/* стили блока operating-mode  */
+.operating-mode {
+    border-right: solid 3px;
+    border-color: #468CCC;
+    padding-right: 15px;
+    text-align: right;
+}
+.operating-mode_div {
+    font-family: "oswald_regular";
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 21px;
+    color: #252525;
+}
+
+/* Общие стили блока phone  */
+.phone {
+    padding-left: 13px;
+    padding-right: 15px;
+}
+/*стили блока conteiner_phone  */
+.phone_conteiner {
+    display: flex;
+    align-items: center;
+}
+.phone_conteiner-icon {
+    width: 15px;
+    height: 15px;
+    text-align: right;
+}
+.phone_conteiner-number {
+    padding-left: 6px;
+
+    font-family: "oswald_regular";
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 21px;
+    color: #252525;
+}
+
+/* Общие стили блока order_call, call  */
+.order-call,
+.call {
+    padding: 0 6px;
+    height: 39px;
+    font-size: 16px;
+    font-family: 'oswald_regular';
+    letter-spacing: 1px;
+    border-radius: 5px;
+    border: solid 2px #468CCC;
+    background-color: rgba(red, green, blue, 0);
+    outline: none;  
+}
+.order-call:hover,
+.call:hover {
+    cursor: pointer;
+    color: white;
+    background-color: rgb(27%, 55%, 80%, 0.7);
+    border: solid 2px rgb(27%, 55%, 80%, 0);
+    
+}
+
+.order-call:active,
+.call:active {
+    background-color: rgb(27%, 55%, 80%, 1);
+}
+.call {
+    display: none;
+}
+
+
+

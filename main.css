@@ -1,0 +1,64 @@
+/* * {
+    outline: solid 2px red;
+} */
+a {
+    text-decoration: none;
+    color: #252525;
+}
+body {
+    margin: 0px auto;
+    max-width: 1280px;
+    min-width: 320px;
+}
+
+button {
+    border-style: none;
+}
+h1,
+h2,
+p {
+    padding: 0;
+    margin: 0;
+}
+.wallaper {
+    
+    max-width: 1080px;
+    padding: 0 100px;
+}
+/* Шрифты */
+@font-face {
+    font-family: 'oswald_regular';
+    src: url(fonts/oswald/Oswald-Regular.ttf);
+}
+@font-face {
+    font-family: 'oswald_light';
+    src: url(fonts/oswald/Oswald-Light.ttf);
+}
+@font-face {
+    font-family: 'oswald_bold';
+    src: url(fonts/oswald/Oswald-Bold.ttf);
+}
+@font-face {
+    font-family: 'oswald_medium';
+    src: url(fonts/oswald/Oswald-Medium.ttf);
+}
+@font-face {
+    font-family: 'artifakt';
+    src: url(fonts/artifakt.ttf);
+}
+@font-face {
+    font-family: 'openSansRegular';
+    src: url(fonts/openSans/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: 'openSansLight';
+    src: url(fonts/openSans/OpenSans-Light.ttf);
+}
+@font-face {
+    font-family: 'openSansSemiBold';
+    src: url(fonts/openSans/OpenSans-SemiBold.ttf);
+}
+@font-face {
+    font-family: 'openSansExtraBold';
+    src: url(fonts/openSans/OpenSans-ExtraBold.ttf);
+}

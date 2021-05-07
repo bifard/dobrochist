@@ -1,0 +1,86 @@
+.block-six {
+    padding: 150px 0;
+}
+.conteiner_h1 {
+    font-family: 'oswald_bold';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 47px;
+    padding-bottom: 17px;
+    letter-spacing: 2px;
+    
+    color: #252525;
+}
+.quest-conteiner-h {
+    font-family: 'openSansLight';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 38px;
+    width: fit-content;
+    padding-left: 10px;
+
+    letter-spacing: 1px;
+    
+    color: #504E4E;
+}
+.quest-conteiner-h-label:hover {
+    cursor: pointer;
+}
+.quest-conteiner-input:checked + .quest-conteiner-h .quest-conteiner-h-label .flex_start .quest-conteiner-h-border {
+    width: 100%;
+    height: 1px;
+    background-color: #468CCC;
+}
+.flex_star {
+    display: flex;
+    justify-content: center;
+    
+    width: 100%;
+    height: 1px;
+    
+}
+.quest-conteiner-h-border {
+    width: 0px;
+    height: 1px;
+    background-color: #468CCC;
+    
+}
+.quest-conteiner-h:hover  .flex_start  .quest-conteiner-h-border {
+    width: 100%;
+    height: 1px;
+    background-color: #468CCC;
+    transition-property: width;
+    transition-timing-function: ease-in;
+    transition: 1s;
+    
+}
+.quest-conteiner-input {
+    display: none;
+}
+.quest-conteiner-input:checked + .quest-conteiner-h + .quest-conteiner-text {
+    transition: 1s ;
+    opacity: 0.7;
+    height: auto;
+}
+.quest-conteiner-text {
+    font-family: 'openSansRegular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    height: 0;
+    overflow: hidden;
+    padding-left: 40px;
+    letter-spacing: 1px;
+    
+    color: #252525;
+    
+    mix-blend-mode: normal;
+    opacity: 0;
+}
+
+
